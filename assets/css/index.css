@@ -222,20 +222,41 @@ button:hover{
     background-size:cover;
 }
 .img-logo-zara{
+    transition: 0.5s;
     width: 275px;
     padding: 150px 30%;
 }
 .img-logo-nike{
+    transition:0.5s;
     width: 150px;
     padding: 150px 40%;
 }
 .img-logo-burguerking{
+    transition: 0.5s;
     width: 150px;
     padding: 150px 40%;
 }
 .img-logo-hp{
+    transition: 0.5s;
     width: 160px;
     padding: 150px 40%;
+} 
+/*ANIMACION DE IMAGENES*/
+.img-logo-zara:hover{
+    transform: scale(1.15);
+    transition: 1s;
+}
+.img-logo-nike:hover{
+    transition: 1s;
+    transform: scale(1.15);
+}
+.img-logo-burguerking:hover{
+    transition: 1s;
+    transform: scale(1.15);
+}
+.img-logo-hp:hover{
+    transform: scale(1.15);
+    transition: 1s;
 }
 
 /*Footer*/
