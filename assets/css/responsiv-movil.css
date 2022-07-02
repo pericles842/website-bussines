@@ -3,6 +3,7 @@
         --black:#1d1c1c;
         --yellow:#ffe628;
     }
+    /*HEADER*/
     .header-box-image{
         width: 100%;
         height: 100%;
@@ -132,5 +133,17 @@
     .footer-images{
         display: block;
         margin: 5%;
+    }
+    /*LInK header*/
+    .box-link{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        margin: 15px 0 15px 5%;
+    }
+    .header-banner img{
+        padding: 10px 10px 15px 10px;
+        width: 60px;
+        height: 20px;
     }
 }

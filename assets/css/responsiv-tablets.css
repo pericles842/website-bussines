@@ -1,0 +1,149 @@
+@media screen and (max-width: 450px){
+    :root{
+        --black:#1d1c1c;
+        --yellow:#ffe628;
+    }
+    /*HEADER*/
+    .header-box-image{
+        width: 100%;
+        height: 100%;
+        background-image: url("./images/image-header.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 70%;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .words-header{
+        font-family: 'Roboto', sans-serif;
+        padding: 50px 40px ;
+        text-align: left;
+        color: #ffffff;
+    }
+    .words-header h1{
+        transition: 3s;
+        margin: 5px 0;
+        width: 60%;
+        border-radius: 2px;
+        padding: 10px ;
+        background-color:var(--black);
+        font-size: 35px;
+    }
+    .words-header h2{
+        transition: 3s;
+        margin: 5px 0;
+        width: 50%;
+        border-radius: 2px;
+        padding: 10px ;
+        background-color:var(--black);
+        font-size: 25px;
+    }
+    .words-header p{
+        transition: 3s;
+        margin: 10px 0 40px 0;
+        width: 40%;
+        color:var(--yellow) ;
+        border-radius: 2px;
+        padding: 10px ;
+        background-color:var(--black);
+        font-size: 20px;
+    }
+    .words-header h3{
+        margin: 10px 0 0px 0;
+        width: 50%;
+        color:var(--yellow) ;
+        border-radius: 2px;
+        padding: 10px ;
+        background-color:var(--black);
+        font-size: 10px;
+    }
+    .words-header h1:hover{
+    text-align: right;
+    width: 70%;
+    transition: 1s;
+}
+.words-header h2:hover{
+    text-align: right;
+    width: 60%;
+    transition: 1s;
+}
+.words-header p:hover{
+    text-align: right;
+    width: 45%;
+    transition: 1s;
+}
+    .title{
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 30px;
+        margin:0 0 3% 0;
+        color: var(--black)
+    }
+    /*Images clientes*/
+    .box-flex{
+        display: block;
+        justify-content: center;
+    }
+    .box-images-section{
+        display: block;
+        margin: 0px 5%;
+    }
+    .img-logo-zara{
+        transition: 0.5s;
+        width: 100px;
+        padding: 60px 15%;
+    }
+    .img-logo-nike{
+        transition:0.5s;
+        width: 93px;
+        padding: 50px 25%;
+    }
+    .img-logo-burguerking{
+        transition: 0.5s;
+        width: 70px;
+        padding: 30px 25%;
+    }
+    .img-logo-hp{
+        transition: 0.5s;
+        width: 70px;
+        padding:32px 30%;
+    } 
+    /*Footer*/
+    .box-footer-flex{
+        padding:20px 10%;
+        color:#ffffff;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+    }
+    .box-footer-flex p{
+        font-size: 13px;
+        margin: 5px 0;
+    }
+    #image-footer{
+        width: 120px;
+        height: auto;
+    }
+    .icons{
+        width: 25px;
+        filter:brightness(100);
+    }
+    .margin-icons{
+        margin: 10px 0;
+        padding: 0 15%;
+    }
+    .footer-images{
+        display: block;
+        margin: 5%;
+    }
+    /*LInK header*/
+    .box-link{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        margin: 15px 0 15px 5%;
+    }
+    .header-banner img{
+        padding: 10px 10px 15px 10px;
+        width: 60px;
+        height: 20px;
+    }
+}
